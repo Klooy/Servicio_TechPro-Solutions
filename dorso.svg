@@ -17,7 +17,7 @@
   
   <!-- Mensaje principal -->
   <text x="175" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
-    🖥️ Optimiza tu computadora
+     ¡TechPro Solutions!
   </text>
 
     <!-- Imagen de laptop simplificada y minimalista -->
@@ -53,7 +53,10 @@
   </g>
   
   <!-- Texto promocional -->
-  <text x="260" y="155" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">¡TechPro Solutions!</text>
+  <text x="260" y="60" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">🖥️ Optimiza tu computadora </text>
+
+    <!-- Contacto -->
+  <text x="185" y="154" font-family="Arial, sans-serif" font-size="8" fill="#4a8db7">  📌 Atención personalizada por WhatsApp</text>
   
   <!-- Elementos decorativos adicionales -->
   <circle cx="175" cy="180" r="4" fill="#4a8db7" opacity="0.4" />
