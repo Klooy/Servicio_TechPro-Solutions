@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 200">
+  <!-- Fondo con gradiente -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162b4d"/>
+      <stop offset="100%" stop-color="#0a192f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo principal -->
+  <rect width="350" height="200" fill="url(#bgGradient)" />
+  
+  <!-- Elementos decorativos - líneas sutiles -->
+  <line x1="175" y1="40" x2="175" y2="180" stroke="#4a8db7" stroke-width="2" opacity="0.3" />
+  <rect x="40" y="40" width="125" height="1" fill="#4a8db7" opacity="0.4" rx="0.5" />
+  <rect x="185" y="40" width="125" height="1" fill="#4a8db7" opacity="0.4" rx="0.5" />
+  
+  <!-- Mensaje principal -->
+  <text x="175" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🖥️ Optimiza tu computadora
+  </text>
+
+    <!-- Imagen de laptop simplificada y minimalista -->
+  <g transform="translate(260, 115)">
+    <!-- Pantalla de laptop -->
+    <rect x="-30" y="-40" width="60" height="40" fill="none" stroke="#4a8db7" stroke-width="1" rx="2" />
+    <rect x="-27" y="-37" width="54" height="34" fill="#4a8db7" opacity="0.15" rx="1" />
+    
+    <!-- Base de laptop -->
+    <path d="M-30,0 L30,0 L35,10 L-35,10 Z" fill="none" stroke="#4a8db7" stroke-width="1" />
+    
+    <!-- Detalles minimalistas -->
+    <circle cx="0" cy="-20" r="6" fill="none" stroke="#4a8db7" stroke-width="0.8" />
+    <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#4a8db7" stroke-width="0.8" />
+  </g>
+
+  <!-- Imagen QR en Base64 -->
+  <image x="50" y="60" width="80" height="80" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAFKAQAAAABTUiuoAAACAElEQVR4nO2bQYrjQAxFn6YMXpZhDpCjlG/WV7OP4gMMuJaBMn8WVU66ZzEkAac9jLQwtnmLD4XkLykx8WDMPx4lwVFHHXXUUUePRK1FB/MAkDsg76/HwwU4+gyaJEkr2MhmNsar2UiQJOkreowAR59Bc0shTblDU+6lCaj59g4Bjr6A2hgLzJfrXv/eLcDRv0T3x7PIvSwtvSC/Q4CjL6BRrfSNgKbYcktSeY8ARx9HZzMzG9pLG3MvYKuW8B0CHH0kaiW8j58EBYgFiF+nUt+u1VE+efS0AhC0n1ZBUywV0fTtWh2tqKZ4z6iCtPS1/dpP8GgBjj6B2kgQ1C5rM7NhMxtzh9nQnMdptP7PaHPwado6wdVE7hBsHfNQP2iyIwU4+kIlrIPBDhtjqRlFWsHG7J7wPOjNZQSRam8VRFqDJLnLOBnaTiupoAloffIX01Fnvn5a50FzL4hSrX8fa6h3pDX4DP406G1OuJnIBuSfRfOwwmy0xyMFOPp0JbzHnlHU+lcLo3+3ToV+2h1DEPNFqgvktPju+DzozWVI0hr2i4rn1onRfXdsdintxxmzmZEW3x2fGE2LmX0svTQRxDxsXgnPjAbV3Go9mDv486B7nYuirvbnS4E0bQbxVwdxPVaAo69MnoD70GnaF/81fJZxEtT8XwuOOuqoo47+Q+hvPAQwJalv3TQAAAAASUVORK5CYII=" />
+
+   <!-- Texto QR -->
+  <text x="90" y="152" font-family="Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">Escanea para contacto</text>
+
+ <!-- Icono de WhatsApp (ajustado a tamaño menor) -->
+  <g transform="translate(80, 155) scale(0.04)">
+    <rect width="455.731" height="455.731" fill="#1BD741" rx="80"/>
+    <g transform="translate(50, 50)">
+      <circle cx="178" cy="178" r="178" fill="#FFFFFF"/>
+      <g transform="translate(30,30)">
+        <path fill="#1BD741" d="M148.071,14.321c-72.877,0-132.167,59.29-132.167,132.167c0,25.393,7.217,50.052,20.869,71.311l-12.855,45.658l57.249-15.382c20.654,12.609,44.432,19.274,68.762,19.274c72.877,0,132.167-59.29,132.167-132.167S220.948,14.321,148.071,14.321z"/>
+        <path fill="#FFFFFF" d="M103.359,72.407l-10.328-0.563c-3.244-0.177-6.426,0.907-8.878,3.037c-5.007,4.348-13.013,12.754-15.472,23.708c-3.667,16.333,2,36.333,16.667,56.333c14.667,20,42,52,90.333,65.667c15.575,4.404,27.827,1.435,37.28-4.612c7.487-4.789,12.648-12.476,14.508-21.166l1.649-7.702c0.524-2.448-0.719-4.932-2.993-5.98l-34.905-16.089c-2.266-1.044-4.953-0.384-6.477,1.591l-13.703,17.764c-1.035,1.342-2.807,1.874-4.407,1.312c-9.384-3.298-40.818-16.463-58.066-49.687c-0.748-1.441-0.562-3.19,0.499-4.419l13.096-15.15c1.338-1.547,1.676-3.722,0.872-5.602L107.359,75.407C107.187,74.774,105.392,73.518,103.359,72.407z"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Texto promocional -->
+  <text x="260" y="155" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">¡TechPro Solutions!</text>
+  
+  <!-- Elementos decorativos adicionales -->
+  <circle cx="175" cy="180" r="4" fill="#4a8db7" opacity="0.4" />
+  <rect x="40" y="175" width="270" height="1" fill="#4a8db7" opacity="0.3" rx="0.5" />
+</svg>
