@@ -38,7 +38,7 @@
   <rect x="20" y="170" width="310" height="1" fill="#4a8db7" opacity="0.4" rx="0.5" />
   
   <!-- Contacto -->
-  <text x="20" y="185" font-family="Arial, sans-serif" font-size="8" fill="#4a8db7">📞 3106226041   📧 mfcorrales26@gmail.com   📍 Atención personalizada por WhatsApp</text>
+  <text x="40" y="185" font-family="Arial, sans-serif" font-size="8" fill="#4a8db7">📞 3106226041   📧 mfcorrales26@gmail.com   📍 Cra 27B 7-29 Santa Elena </text>
   
   <!-- Elemento geométrico decorativo en esquina -->
   <circle cx="325" cy="25" r="12" fill="none" stroke="#4a8db7" stroke-width="1" opacity="0.5" />
