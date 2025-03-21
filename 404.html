@@ -41,13 +41,32 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background-size: contain; /* Ajustar la imagen al tamaño */
+            background-position: center;
+            background-repeat: no-repeat;
         }
         .front {
-            background: url('frontal.svg') no-repeat center/cover;
+            background-image: url('frontal.svg');
         }
         .back {
-            background: url('dorso.svg') no-repeat center/cover;
+            background-image: url('dorso.svg');
             transform: rotateY(180deg);
+        }
+
+        /* 🔹 RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            .card {
+                width: 90vw;
+                height: auto;
+                aspect-ratio: 5 / 3; /* Mantener proporción */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 95vw;
+                aspect-ratio: 4 / 3; /* Ajustar mejor en móviles */
+            }
         }
     </style>
 </head>
